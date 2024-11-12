@@ -1,0 +1,26 @@
+/* Style for the brand name text */
+.brand-name {
+    font-size: 28px; /* Adjust size as needed */
+    font-weight: 700; /* Makes the text bold */
+    color: #d4af37; /* Gold color */
+    font-family: "Noto Serif", serif; /* Match your font family */
+  }
+  /* Make the main container fill the viewport height */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+/* Ensure the footer stays at the bottom */
+.footer {
+  margin-top: auto; /* Pushes the footer to the bottom */
+  background-color: #171611;
+  padding: 20px 0;
+  text-align: center;
+  color: #b7b29e; /* Matches your footer text color */
+}
+body {
+  font-size: 14px; /* Slightly smaller for mobile readability */
+}
+

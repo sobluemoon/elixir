@@ -1,0 +1,365 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Epilogue%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Reviews</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-black dark group/design-root overflow-x-hidden" style='font-family: "Noto Serif", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-end whitespace-nowrap border-b border-solid border-b-[#383029] px-10 py-3">
+          <a href="Homepage.html" class="text-[#dfb620] text-4xl font-bold leading-tight tracking-[-0.015em] mr-auto">
+            Élixir De Naturé
+          </a>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-white text-sm font-medium leading-normal" href="Homepage.html">Home</a>
+              <a class="text-white text-sm font-medium leading-normal" href="Product.html">Shop</a>
+              <a class="text-white text-sm font-medium leading-normal" href="Blog.html">Haircare Tips</a>
+            </div>
+            <div class="flex gap-2">
+              <button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#383029] text-white text-sm font-bold leading-normal tracking-[0.015em]">
+                <span class="truncate">Sign in</span>
+              </button>
+              <button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#383029] text-white gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5">
+                <div class="text-white" data-icon="MagnifyingGlass" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+                  </svg>
+                </div>
+              </button>
+              <button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#383029] text-white gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5">
+                <div class="text-white" data-icon="ShoppingBag" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM176,88a48,48,0,0,1-96,0,8,8,0,0,1,16,0,32,32,0,0,0,64,0,8,8,0,0,1,16,0Z"></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </header> 
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:p-4">
+                <div
+                  class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-lg items-center justify-center p-4"
+                  style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("images/banner3.jpeg");'
+                >
+                  <div class="flex flex-col gap-2 text-center">
+                    <h1
+                      class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
+                    >
+                      Customer Feedback
+                    </h1>
+                    <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                      Your feedback is important to us. It helps us improve our products and services and build a better experience for you.
+                    </h2>
+                  </div>
+                  <label class="flex flex-col min-w-40 h-14 w-full max-w-[480px] @[480px]:h-16">
+                    <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+                      <div
+                        class="text-[#c8bf93] flex border border-[#655d34] bg-[#322e1a] items-center justify-center pl-[15px] rounded-l-lg border-r-0"
+                        data-icon="MagnifyingGlass"
+                        data-size="20px"
+                        data-weight="regular"
+                      >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                          <path
+                            d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <input
+                        placeholder="What do you think of our products and services?"
+                        class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-white focus:outline-0 focus:ring-0 border border-[#655d34] bg-[#322e1a] focus:border-[#655d34] h-full placeholder:text-[#c8bf93] px-[15px] rounded-r-none border-r-0 pr-2 rounded-l-none border-l-0 pl-2 text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal"
+                        value=""
+                      />
+                      <div class="flex items-center justify-center rounded-r-lg border-l-0 border border-[#655d34] bg-[#322e1a] pr-[7px]">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#e8c930] text-[#221f11] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                        >
+                          <span class="truncate">Send</span>
+                        </button>
+                      </div>
+                    </div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Summary</h2>
+            <div class="flex flex-wrap gap-x-8 gap-y-6 p-4">
+              <div class="flex flex-col gap-2">
+                <p class="text-white text-4xl font-black leading-tight tracking-[-0.033em]">4</p>
+                <div class="flex gap-0.5">
+                  <div class="text-[#e8c930]" data-icon="Star" data-size="18px" data-weight="fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="text-[#e8c930]" data-icon="Star" data-size="18px" data-weight="fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="text-[#e8c930]" data-icon="Star" data-size="18px" data-weight="fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="text-[#e8c930]" data-icon="Star" data-size="18px" data-weight="fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="text-[#e8c930]" data-icon="Star" data-size="18px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M239.2,97.29a16,16,0,0,0-13.81-11L166,81.17,142.72,25.81h0a15.95,15.95,0,0,0-29.44,0L90.07,81.17,30.61,86.32a16,16,0,0,0-9.11,28.06L66.61,153.8,53.09,212.34a16,16,0,0,0,23.84,17.34l51-31,51.11,31a16,16,0,0,0,23.84-17.34l-13.51-58.6,45.1-39.36A16,16,0,0,0,239.2,97.29Zm-15.22,5-45.1,39.36a16,16,0,0,0-5.08,15.71L187.35,216v0l-51.07-31a15.9,15.9,0,0,0-16.54,0l-51,31h0L82.2,157.4a16,16,0,0,0-5.08-15.71L32,102.35a.37.37,0,0,1,0-.09l59.44-5.14a16,16,0,0,0,13.35-9.75L128,32.08l23.2,55.29a16,16,0,0,0,13.35,9.75L224,102.26S224,102.32,224,102.33Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <p class="text-white text-base font-normal leading-normal">10,634 reviews</p>
+              </div>
+              <div class="grid min-w-[200px] max-w-[400px] flex-1 grid-cols-[20px_1fr_40px] items-center gap-y-3">
+                <!-- 5-Star Reviews -->
+                <p class="text-white text-sm font-normal leading-normal">5</p>
+                <div class="flex h-2 flex-1 overflow-hidden rounded-full bg-[#655d34]">
+                  <div class="rounded-full bg-[#e8c930]" style="width: 90%;"></div> <!-- Adjust width as percentage -->
+                </div>
+                <p class="text-[#c8bf93] text-sm font-normal leading-normal text-right">90%</p>
+              
+                <!-- 4-Star Reviews -->
+                <p class="text-white text-sm font-normal leading-normal">4</p>
+                <div class="flex h-2 flex-1 overflow-hidden rounded-full bg-[#655d34]">
+                  <div class="rounded-full bg-[#e8c930]" style="width: 10%;"></div>
+                </div>
+                <p class="text-[#c8bf93] text-sm font-normal leading-normal text-right">10%</p>
+              
+                <!-- 3-Star Reviews -->
+                <p class="text-white text-sm font-normal leading-normal">3</p>
+                <div class="flex h-2 flex-1 overflow-hidden rounded-full bg-[#655d34]">
+                  <div class="rounded-full bg-[#e8c930]" style="width: 3%;"></div>
+                </div>
+                <p class="text-[#c8bf93] text-sm font-normal leading-normal text-right">3%</p>
+              
+                <!-- 2-Star Reviews -->
+                <p class="text-white text-sm font-normal leading-normal">2</p>
+                <div class="flex h-2 flex-1 overflow-hidden rounded-full bg-[#655d34]">
+                  <div class="rounded-full bg-[#e8c930]" style="width: 1%;"></div>
+                </div>
+                <p class="text-[#c8bf93] text-sm font-normal leading-normal text-right">1%</p>
+              
+                <!-- 1-Star Reviews -->
+                <p class="text-white text-sm font-normal leading-normal">1</p>
+                <div class="flex h-2 flex-1 overflow-hidden rounded-full bg-[#655d34]">
+                  <div class="rounded-full bg-[#e8c930]" style="width: 1%;"></div>
+                </div>
+                <p class="text-[#c8bf93] text-sm font-normal leading-normal text-right">1%</p>
+              </div>              
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Customer's Experiences</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg"
+                  style='background-image: url("images/review1.jpg");'
+                ></div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg"
+                  style='background-image: url("images/review2.jpg");'
+                ></div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg"
+                  style='background-image: url("images/review3.jpg");'
+                ></div>
+              </div>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5"></h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg"
+                  style='background-image: url("images/review4.jpg");'
+                ></div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg"
+                  style='background-image: url("images/review5.jpg");'
+                ></div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg"
+                  style='background-image: url("images/review6.jpg");'
+                ></div>
+              </div>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Most Recent Reviews</h2>
+            <div class="flex flex-col gap-8 overflow-x-hidden bg-[#221f11] p-4">
+              <div class="flex flex-col gap-3 bg-[#221f11]">
+                <div class="flex-1">
+                  <p class="text-white text-base font-medium leading-normal">Emily T.</p>
+                  <p class="text-[#c8bf93] text-sm font-normal leading-normal">October 22, 2024</p>
+                </div>
+                <div class="flex gap-0.5">
+                  <div class="text-[#e8c930]" data-icon="Star" data-size="20px" data-weight="fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="text-[#e8c930]" data-icon="Star" data-size="20px" data-weight="fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="text-[#e8c930]" data-icon="Star" data-size="20px" data-weight="fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="text-[#8a7f47]" data-icon="Star" data-size="20px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M239.2,97.29a16,16,0,0,0-13.81-11L166,81.17,142.72,25.81h0a15.95,15.95,0,0,0-29.44,0L90.07,81.17,30.61,86.32a16,16,0,0,0-9.11,28.06L66.61,153.8,53.09,212.34a16,16,0,0,0,23.84,17.34l51-31,51.11,31a16,16,0,0,0,23.84-17.34l-13.51-58.6,45.1-39.36A16,16,0,0,0,239.2,97.29Zm-15.22,5-45.1,39.36a16,16,0,0,0-5.08,15.71L187.35,216v0l-51.07-31a15.9,15.9,0,0,0-16.54,0l-51,31h0L82.2,157.4a16,16,0,0,0-5.08-15.71L32,102.35a.37.37,0,0,1,0-.09l59.44-5.14a16,16,0,0,0,13.35-9.75L128,32.08l23.2,55.29a16,16,0,0,0,13.35,9.75L224,102.26S224,102.32,224,102.33Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="text-[#8a7f47]" data-icon="Star" data-size="20px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M239.2,97.29a16,16,0,0,0-13.81-11L166,81.17,142.72,25.81h0a15.95,15.95,0,0,0-29.44,0L90.07,81.17,30.61,86.32a16,16,0,0,0-9.11,28.06L66.61,153.8,53.09,212.34a16,16,0,0,0,23.84,17.34l51-31,51.11,31a16,16,0,0,0,23.84-17.34l-13.51-58.6,45.1-39.36A16,16,0,0,0,239.2,97.29Zm-15.22,5-45.1,39.36a16,16,0,0,0-5.08,15.71L187.35,216v0l-51.07-31a15.9,15.9,0,0,0-16.54,0l-51,31h0L82.2,157.4a16,16,0,0,0-5.08-15.71L32,102.35a.37.37,0,0,1,0-.09l59.44-5.14a16,16,0,0,0,13.35-9.75L128,32.08l23.2,55.29a16,16,0,0,0,13.35,9.75L224,102.26S224,102.32,224,102.33Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <p class="text-white text-base font-normal leading-normal">
+                  I was excited to try this shampoo, and while I did enjoy the scent and the rich lather, I didn’t see a huge difference in my hair’s texture. It may work better for someone with thicker or drier hair, as I have fine hair and found it a bit heavy. That said, it’s a quality product, and I’d still recommend it for certain hair types.
+                </p>
+              </div>
+              <div class="flex flex-col gap-3 bg-[#221f11]">
+                <div class="flex-1">
+                  <p class="text-white text-base font-medium leading-normal">Sarah L.</p>
+                  <p class="text-[#c8bf93] text-sm font-normal leading-normal">August 15, 2024</p>
+                </div>
+                <div class="flex gap-0.5">
+                  <div class="text-[#e8c930]" data-icon="Star" data-size="20px" data-weight="fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="text-[#e8c930]" data-icon="Star" data-size="20px" data-weight="fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="text-[#e8c930]" data-icon="Star" data-size="20px" data-weight="fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="text-[#e8c930]" data-icon="Star" data-size="20px" data-weight="fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="text-[#e8c930]" data-icon="Star" data-size="20px" data-weight="fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <p class="text-white text-base font-normal leading-normal">
+                  I’ve never felt my hair this soft and healthy! The Élixir de Nature Ginseng Shampoo has completely transformed my hair care routine. From the luxurious texture to the natural, calming scent, it feels like a spa experience every time I use it. My hair feels stronger, shinier, and visibly healthier. Highly recommend to anyone looking for a premium haircare product!
+                </p>
+              </div>
+              <div class="flex flex-col gap-3 bg-[#221f11]">
+                <div class="flex-1">
+                  <p class="text-white text-base font-medium leading-normal">Olivia M.</p>
+                  <p class="text-[#c8bf93] text-sm font-normal leading-normal">November 2, 2024</p>
+                </div>
+                <div class="flex gap-0.5">
+                  <div class="text-[#e8c930]" data-icon="Star" data-size="20px" data-weight="fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="text-[#e8c930]" data-icon="Star" data-size="20px" data-weight="fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="text-[#e8c930]" data-icon="Star" data-size="20px" data-weight="fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="text-[#e8c930]" data-icon="Star" data-size="20px" data-weight="fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="text-[#e8c930]" data-icon="Star" data-size="20px" data-weight="fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <p class="text-white text-base font-normal leading-normal">This shampoo is hands down the best I’ve ever used! From the elegant packaging to the rich, creamy lather, it feels like a high-end experience every time. My hair feels softer, fuller, and has an incredible shine after every wash. The scent is absolutely divine, and I love that it’s made with natural ingredients. Élixir de Nature has become my go-to for haircare!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
